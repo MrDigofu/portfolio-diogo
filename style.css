@@ -1,0 +1,84 @@
+
+body {
+    background: #0b1020;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background: #111a30;
+}
+
+.navbar-brand {
+    color: #5eead4 !important;
+    font-weight: bold;
+}
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(135deg, #0b1020, #202d50);
+    padding-top: 100px;
+}
+
+.hero h1 {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.hero h1 span {
+    color: #5eead4;
+}
+
+.hero p {
+    color: #c2cce0;
+}
+
+.secao {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.secao h2 {
+    color: #5eead4;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.fundo {
+    background: #111a30;
+}
+
+.projeto {
+    background: #202d50;
+    color: white;
+    border: 1px solid #5eead4;
+    transition: 0.4s;
+}
+
+.projeto:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px #0008;
+}
+
+.progress {
+    margin-bottom: 25px;
+    height: 12px;
+    background: #26324b;
+}
+
+.progress-bar {
+    width: 0;
+    background: linear-gradient(90deg, #8b7cff, #5eead4);
+    transition: width 1.5s ease;
+}
+
+footer {
+    background: #080d1b;
+    color: #a5b0c7;
+}
